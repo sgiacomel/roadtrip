@@ -11,12 +11,12 @@
     
     
     
-        <link rel="alternate" type="application/atom+xml" title="RSS" href="/roadtrip/atom.xml">
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Website","@id":"http://sgiacomel.github.io/roadtrip","author":{"@type":"Person","name":"Simone Giacomel","sameAs":[]},"name":"sgiacomel","description":null,"url":"http://sgiacomel.github.io/roadtrip"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Website","@id":"http://www.sgiacomel.com","author":{"@type":"Person","name":"Simone Giacomel","sameAs":[]},"name":"sgiacomel","description":null,"url":"http://www.sgiacomel.com"}</script>
     <meta property="og:type" content="blog">
 <meta property="og:title" content="map">
-<meta property="og:url" content="http://sgiacomel.github.io/roadtrip/map/index.html">
+<meta property="og:url" content="http://www.sgiacomel.com/map/index.html">
 <meta property="og:site_name" content="sgiacomel">
 <meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2018-04-17T22:49:13.602Z">
@@ -31,7 +31,7 @@
     
     
     <!--STYLES-->
-    <link rel="stylesheet" href="/roadtrip/assets/css/style-ow38sz5uioslnkmz57zsvo8bvtyjvd8mmbvew6wwkptg0waayra8xlanwuq0.min.css">
+    <link rel="stylesheet" href="/assets/css/style-ow38sz5uioslnkmz57zsvo8bvtyjvd8mmbvew6wwkptg0waayra8xlanwuq0.min.css">
     <!--STYLES END-->
     
 
@@ -49,11 +49,11 @@
 <header id="header" data-behavior="6">
     <div class="header-title">
         
-          <a class="header-title-link" href="/roadtrip/index.html">HOME</a>
+          <a class="header-title-link" href="/index.html">HOME</a>
         
-          <a class="header-title-link" href="/roadtrip/about/">ABOUT</a>
+          <a class="header-title-link" href="/about/">ABOUT</a>
         
-          <a class="header-title-link" href="/roadtrip/map/?alldates">MAP</a>
+          <a class="header-title-link" href="/map/?alldates">MAP</a>
         
     </div>
     
@@ -75,7 +75,7 @@
                 <li class="sidebar-button">
                     
                         <a  class="sidebar-button-link "
-                             href="/roadtrip/ "
+                             href="/ "
                             
                             title="Home"
                         >
@@ -122,7 +122,7 @@
                 <li class="sidebar-button">
                     
                         <a  class="sidebar-button-link "
-                             href="/roadtrip/atom.xml"
+                             href="/atom.xml"
                             
                             title="RSS"
                         >
@@ -142,9 +142,9 @@
                 <div id="container-fluid">
 	<div id="map"></div>
 </div>
-<script src="/roadtrip/assets/js/async.min.js"></script>
-<script src="/roadtrip/assets/js/jquery.js"></script>
-<link rel="stylesheet" href="/roadtrip/assets/css/map.css">
+<script src="/assets/js/async.min.js"></script>
+<script src="/assets/js/jquery.js"></script>
+<link rel="stylesheet" href="/assets/css/map.css">
 <script>
 
 var url_string = window.location.href;
@@ -724,7 +724,7 @@ function initMap() {
 
 	async.each(dates, function(date, callback) {
 		var date_string = date.toISOString().split('T')[0].split('-').join('')
-		loadJSON(/roadtrip/ + "map/gps/" + date_string + ".geojson", function(response) {
+		loadJSON(/ + "map/gps/" + date_string + ".geojson", function(response) {
 			var jsondata = JSON.parse(response);
 			timed_jsondata[date_string] = [];
 			for (var feature_index in jsondata.features)
@@ -846,7 +846,7 @@ function initMap() {
         
         
         <!--SCRIPTS-->
-<script src="/roadtrip/assets/js/script-nxb4canu8juf4cy7etzuruo9rkaywsmwqyrhn7tcrgdwh1ax0gkxtf0dpkda.min.js"></script>
+<script src="/assets/js/script-nxb4canu8juf4cy7etzuruo9rkaywsmwqyrhn7tcrgdwh1ax0gkxtf0dpkda.min.js"></script>
 <!--SCRIPTS END-->
 
     
