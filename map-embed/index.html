@@ -626,7 +626,7 @@ function initMap() {
 
 	async.each(dates, function(date, callback) {
 		var date_string = date.toISOString().split('T')[0].split('-').join('')
-		loadJSON(/ + "map/gps/" + date_string + ".geojson", function(response) {
+		loadJSON("map/gps/" + date_string + ".geojson", function(response) {
 			var jsondata = JSON.parse(response);
 			timed_jsondata[date_string] = [];
 			for (var feature_index in jsondata.features)
