@@ -31,7 +31,7 @@
     
     
     <!--STYLES-->
-    <link rel="stylesheet" href="/assets/css/style-ow38sz5uioslnkmz57zsvo8bvtyjvd8mmbvew6wwkptg0waayra8xlanwuq0.min.css">
+    <link rel="stylesheet" href="/assets/css/style-wexbibsm3sleakjtrw6h9fz5tmao68fshcistt9ljccvinjgqycjaffbca35.min.css">
     <!--STYLES END-->
     
 
@@ -44,14 +44,12 @@
                 <div id="container-fluid">
 	<div id="map"></div>
 </div>
-<script src="/assets/js/async.min.js"></script>
 <script src="/assets/js/jquery.js"></script>
-<link rel="stylesheet" href="/assets/css/map.css">
 <script>
 
 var url_string = window.location.href;
 var url = new URL(url_string);
-var dates = [], raw_dates;
+var dates = [], raw_dates = [];
 if (url.searchParams.get("dates")) {
 	url.searchParams.get("dates").split("|").forEach(function(date){
 		if (date) {
@@ -596,7 +594,7 @@ function initMap() {
 		disableDefaultUI: true
 	};
 
-	if (raw_dates.length == 0) {
+	if (dates.length == 0) {
 		map_options.center = new google.maps.LatLng(45,-80);
 		map_options.zoom = 7;
 	}
@@ -672,7 +670,7 @@ function initMap() {
 		}
 		features.push(line);
 		global_jsondata.features = features;
-		if (raw_dates.length > 0) {
+		if (dates.length > 0) {
 			map.data.addGeoJson(global_jsondata);
 		}
 		
@@ -723,6 +721,13 @@ function initMap() {
     if (!embed) {
     	map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
     }
+
+    map.addListener('tilesloaded', function () { 
+    	var start = segments[0]['start'];
+    	var end = segments[Object.keys(segments).length - 1]['end'];
+    	var text = start + (start == end ? '' : (" to " + end));
+    	$("#container-fluid").append($("<span>", {id: "map-loaded", text: text})); 
+    });
 }
 
 </script>
@@ -759,7 +764,7 @@ function initMap() {
         
         
         <!--SCRIPTS-->
-<script src="/assets/js/script-nxb4canu8juf4cy7etzuruo9rkaywsmwqyrhn7tcrgdwh1ax0gkxtf0dpkda.min.js"></script>
+<script src="/assets/js/script-k4ho2sxemhhkveim4p3syd8webh5uvfuwjytij2m9tt8rbolhxsdc6xeir3e.min.js"></script>
 <!--SCRIPTS END-->
 
     
