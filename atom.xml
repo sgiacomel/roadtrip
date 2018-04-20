@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.sgiacomel.com/"/>
-  <updated>2018-04-19T20:33:20.251Z</updated>
-  <id>http://www.sgiacomel.com/</id>
+  <link href="http://localhost:4000/"/>
+  <updated>2018-04-20T11:37:56.868Z</updated>
+  <id>http://localhost:4000/</id>
   
   <author>
     <name>Simone Giacomel</name>
@@ -17,11 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Toronto</title>
+    <link href="http://localhost:4000/2018/04/19/20180419/"/>
+    <id>http://localhost:4000/2018/04/19/20180419/</id>
+    <published>2018-04-19T04:00:00.000Z</published>
+    <updated>2018-04-20T11:37:56.868Z</updated>
+    
+    <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Toronto&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Toronto</title>
+    <link href="http://localhost:4000/2018/04/07/20180407/"/>
+    <id>http://localhost:4000/2018/04/07/20180407/</id>
+    <published>2018-04-07T04:00:00.000Z</published>
+    <updated>2018-04-20T11:39:16.269Z</updated>
+    
+    <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Toronto&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Elora to Toronto</title>
-    <link href="http://www.sgiacomel.com/2018/04/01/20180401/"/>
-    <id>http://www.sgiacomel.com/2018/04/01/20180401/</id>
+    <link href="http://localhost:4000/2018/04/01/20180401/"/>
+    <id>http://localhost:4000/2018/04/01/20180401/</id>
     <published>2018-04-01T04:00:00.000Z</published>
-    <updated>2018-04-19T20:33:20.251Z</updated>
+    <updated>2018-04-20T11:39:23.406Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
@@ -36,10 +72,10 @@
   
   <entry>
     <title>Elora</title>
-    <link href="http://www.sgiacomel.com/2018/03/31/20180331/"/>
-    <id>http://www.sgiacomel.com/2018/03/31/20180331/</id>
+    <link href="http://localhost:4000/2018/03/31/20180331/"/>
+    <id>http://localhost:4000/2018/03/31/20180331/</id>
     <published>2018-03-31T04:00:00.000Z</published>
-    <updated>2018-04-19T20:33:24.588Z</updated>
+    <updated>2018-04-20T11:39:19.105Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
@@ -54,10 +90,10 @@
   
   <entry>
     <title>Toronto to Elora</title>
-    <link href="http://www.sgiacomel.com/2018/03/30/20180330/"/>
-    <id>http://www.sgiacomel.com/2018/03/30/20180330/</id>
+    <link href="http://localhost:4000/2018/03/30/20180330/"/>
+    <id>http://localhost:4000/2018/03/30/20180330/</id>
     <published>2018-03-30T04:00:00.000Z</published>
-    <updated>2018-04-19T20:33:35.910Z</updated>
+    <updated>2018-04-20T11:39:20.509Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
@@ -72,10 +108,10 @@
   
   <entry>
     <title>Elora to Toronto</title>
-    <link href="http://www.sgiacomel.com/2018/03/29/20180329/"/>
-    <id>http://www.sgiacomel.com/2018/03/29/20180329/</id>
+    <link href="http://localhost:4000/2018/03/29/20180329/"/>
+    <id>http://localhost:4000/2018/03/29/20180329/</id>
     <published>2018-03-29T04:00:00.000Z</published>
-    <updated>2018-04-19T20:33:30.253Z</updated>
+    <updated>2018-04-20T11:39:14.833Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
@@ -90,10 +126,10 @@
   
   <entry>
     <title>Fergus to Elora</title>
-    <link href="http://www.sgiacomel.com/2018/03/27/20180327/"/>
-    <id>http://www.sgiacomel.com/2018/03/27/20180327/</id>
+    <link href="http://localhost:4000/2018/03/27/20180327/"/>
+    <id>http://localhost:4000/2018/03/27/20180327/</id>
     <published>2018-03-27T04:00:00.000Z</published>
-    <updated>2018-04-19T20:33:46.712Z</updated>
+    <updated>2018-04-20T11:39:17.697Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
@@ -108,10 +144,10 @@
   
   <entry>
     <title>Darwin</title>
-    <link href="http://www.sgiacomel.com/2018/03/18/Darwin/"/>
-    <id>http://www.sgiacomel.com/2018/03/18/Darwin/</id>
+    <link href="http://localhost:4000/2018/03/18/Darwin/"/>
+    <id>http://localhost:4000/2018/03/18/Darwin/</id>
     <published>2018-03-18T21:52:41.000Z</published>
-    <updated>2018-04-19T11:14:29.201Z</updated>
+    <updated>2018-04-20T11:33:45.699Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
@@ -126,10 +162,10 @@
   
   <entry>
     <title>Toronto to Elora</title>
-    <link href="http://www.sgiacomel.com/2018/03/17/20180317/"/>
-    <id>http://www.sgiacomel.com/2018/03/17/20180317/</id>
+    <link href="http://localhost:4000/2018/03/17/20180317/"/>
+    <id>http://localhost:4000/2018/03/17/20180317/</id>
     <published>2018-03-17T04:00:00.000Z</published>
-    <updated>2018-04-19T20:33:57.434Z</updated>
+    <updated>2018-04-20T11:39:21.985Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
@@ -144,10 +180,10 @@
   
   <entry>
     <title>Toronto</title>
-    <link href="http://www.sgiacomel.com/2018/03/16/20180316/"/>
-    <id>http://www.sgiacomel.com/2018/03/16/20180316/</id>
+    <link href="http://localhost:4000/2018/03/16/20180316/"/>
+    <id>http://localhost:4000/2018/03/16/20180316/</id>
     <published>2018-03-16T04:00:00.000Z</published>
-    <updated>2018-04-19T20:33:52.277Z</updated>
+    <updated>2018-04-20T11:39:24.958Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
