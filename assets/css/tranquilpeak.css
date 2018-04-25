@@ -2308,12 +2308,13 @@ a.fancybox {
 .sideBarMap {
   background-color: #eef;
   width: 23%;
-  float: right;
+  float: left;
   padding: 8px;
   border-radius: 8px;
   margin: 0;
   margin-top: 5px;
   margin-bottom: 5px;
+  marrgin-left: 2px;
   border: 1px solid #aaa;
   height: 100%; }
 
