@@ -5523,7 +5523,7 @@ a.fancybox {
   padding: 5px;
   margin: 5px;
   border: 1px solid #aaa;
-  height: 100px; }
+  height: 100%; }
 
 .share-options-bar {
   position: fixed;
