@@ -2192,14 +2192,14 @@ a.fancybox {
 .postShorten-group {
   width: 74%;
   float: left;
-  padding: 5px;
+  padding: 8px;
   margin: 0;
-  margin-top: 5px;
   margin-bottom: 5px;
   border: 1px solid #aaa;
-  background-color: #eef; }
+  background-color: #efe;
+  border-radius: 8px; }
   .postShorten-group .postShorten {
-    margin-top: 15px;
+    margin-top: 8px;
     border-bottom: 2px solid #aaa; }
 
 .postShorten {
@@ -2266,7 +2266,8 @@ a.fancybox {
       width: 200px;
       height: 140px;
       object-fit: cover;
-      overflow: hidden; }
+      overflow: hidden;
+      border: 1px solid #aaa; }
   .postShorten.postShorten--thumbnailimg-right .postShorten-wrap {
     float: left;
     width: calc(100% - 200px - 20px); }
@@ -2278,7 +2279,8 @@ a.fancybox {
       width: 200px;
       height: 140px;
       object-fit: cover;
-      overflow: hidden; }
+      overflow: hidden;
+      border: 1px solid #aaa; }
   .postShorten.postShorten--thumbnailimg-left .postShorten-wrap {
     float: right;
     width: calc(100% - 200px - 20px); }
@@ -2298,13 +2300,15 @@ a.fancybox {
     margin: 15px 0 15px 0; }
     .postShorten.postShorten--thumbnailimg-bottom .postShorten-thumbnailimg img {
       width: auto;
-      height: auto; } }
+      height: auto;
+      border: 1px solid #aaa; } }
 
 .sideBarMap {
-  background-color: #efe;
-  width: 23%;
+  background-color: #eef;
+  width: 22%;
   float: right;
-  padding: 5px;
+  padding: 8px;
+  border-radius: 8px;
   margin: 0;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -2313,7 +2317,8 @@ a.fancybox {
 
 .iframeMap {
   width: 100%;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  border: 1px solid #aaa; }
 
 .share-options-bar {
   position: fixed;
