@@ -5482,7 +5482,7 @@ a.fancybox {
 @media only screen and (min-width: 480px) {
   .postShorten.postShorten--thumbnailimg-right .postShorten-thumbnailimg {
     float: right;
-    margin: 5px 0 20px 15px; }
+    margin: 5px 0 10px 15px; }
     .postShorten.postShorten--thumbnailimg-right .postShorten-thumbnailimg img {
       display: block;
       width: 200px;
@@ -5495,7 +5495,7 @@ a.fancybox {
     width: calc(100% - 200px - 20px); }
   .postShorten.postShorten--thumbnailimg-left .postShorten-thumbnailimg {
     float: left;
-    margin: 5px 15px 20px 0; }
+    margin: 5px 15px 10px 0; }
     .postShorten.postShorten--thumbnailimg-left .postShorten-thumbnailimg img {
       display: block;
       width: 200px;
@@ -5519,7 +5519,7 @@ a.fancybox {
     display: block;
     width: 100%;
     overflow: hidden;
-    margin: 15px 0 15px 0; }
+    margin: 15px 0 10px 0; }
     .postShorten.postShorten--thumbnailimg-bottom .postShorten-thumbnailimg img {
       width: auto;
       height: auto;
