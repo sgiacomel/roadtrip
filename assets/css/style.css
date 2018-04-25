@@ -4991,7 +4991,7 @@ a.fancybox {
 .main-content-wrap {
   display: block;
   max-width: 1000px;
-  margin: 0;
+  margin: 0 auto;
   padding-right: 2px;
   padding-left: 2px; }
 
