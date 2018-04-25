@@ -2305,6 +2305,9 @@ a.fancybox {
   border: 1px solid #aaa;
   height: 100%; }
 
+.iframeMap {
+  width: 100%; }
+
 .share-options-bar {
   position: fixed;
   bottom: -100%;
