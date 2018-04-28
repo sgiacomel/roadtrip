@@ -3454,6 +3454,17 @@ blockquote {
   height: calc(100% - 30px);
   overflow: hidden; }
 
+#legend {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff; }
+
+#legend ul {
+  padding: 10px 20px 10px 10px;
+  margin: 0 0 0 20px; }
+
 #about {
   display: none;
   position: fixed;
