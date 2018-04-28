@@ -239,7 +239,8 @@ blockquote {
   right: 20px;
   top: 20px;
   background: rgba(0, 0, 0, 0.5);
-  color: #fff; }
+  color: #fff;
+  font-size: 1rem; }
 
 #legend ul {
   padding: 10px 20px 10px 10px;
