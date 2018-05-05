@@ -31,7 +31,7 @@
     
     
     <!--STYLES-->
-    <link rel="stylesheet" href="/assets/css/style-ce30cdyznumd3hi5qqaxtukabybyyh0n0dhmze5q8i1p3g7j0z9pi6netdsv.min.css">
+    <link rel="stylesheet" href="/assets/css/style-aazhxh9ffj2m1wsajhyl6afe1mk1qm1bpawgkmle2ohgiawe1ak8uacsdore.min.css">
     <!--STYLES END-->
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -159,9 +159,10 @@
   </div>
 </div>
 <script src="/assets/js/jquery.js"></script>
+
 <script>
 
-var google_api_key = localhost ? config.google_api_key[0] : config.google_api_key[1];
+var google_api_key = 'AIzaSyCMETxi9mRjWMt726OBZAAhRyXj1xyuPOs';
 var url_string = window.location.href;
 var url = new URL(url_string);
 var dates = [], raw_dates = [];
@@ -464,7 +465,7 @@ function generateSegment(feature, coordinates, line, point) {
 	        	callback(null, locality_mark);
 	        }
 	        else {
-	        	loadJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" +input + "&key=" + google_api_key, function(response) {
+	        	loadJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + input + "&key=" + google_api_key, function(response) {
 					locality_mark = getLocality(response);
 					callback(null, locality_mark);
 				});
@@ -910,7 +911,7 @@ function initMap() {
 }
 
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMETxi9mRjWMt726OBZAAhRyXj1xyuPOs AIzaSyA3rZhYnhq34NmOQOPbI5NOueLf0HKM7BE&callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMETxi9mRjWMt726OBZAAhRyXj1xyuPOs&callback=initMap"></script>
 
             
             
@@ -950,7 +951,7 @@ function initMap() {
         
         
         <!--SCRIPTS-->
-<script src="/assets/js/script-s6yrgsaqjijuamduovnqeywrcic8qsib5ug2eqaqn05rtslrcttem1lomaxa.min.js"></script>
+<script src="/assets/js/script-frcqw95dqlyelxtuc1jqhqua6ahju3jjz7bldbpo5w3q5j8dqtlvb6xofc4k.min.js"></script>
 <!--SCRIPTS END-->
 
 
