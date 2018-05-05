@@ -237,7 +237,7 @@ blockquote {
 #legend {
   position: absolute;
   right: 20px;
-  top: 20px;
+  bottom: 20px;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-size: 1rem; }
