@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://localhost:4000/"/>
+  <link href="http://www.sgiacomel.com/"/>
   <updated>2018-05-06T22:53:18.081Z</updated>
-  <id>http://localhost:4000/</id>
+  <id>http://www.sgiacomel.com/</id>
   
   <author>
     <name>Simone Giacomel</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Roadtrip</title>
-    <link href="http://localhost:4000/2018/05/06/Roadtrip/"/>
-    <id>http://localhost:4000/2018/05/06/Roadtrip/</id>
+    <link href="http://www.sgiacomel.com/2018/05/06/Roadtrip/"/>
+    <id>http://www.sgiacomel.com/2018/05/06/Roadtrip/</id>
     <published>2018-05-06T22:53:18.000Z</published>
     <updated>2018-05-06T22:53:18.081Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Parental leave</title>
-    <link href="http://localhost:4000/2018/05/06/Parental-leave/"/>
-    <id>http://localhost:4000/2018/05/06/Parental-leave/</id>
+    <link href="http://www.sgiacomel.com/2018/05/06/Parental-leave/"/>
+    <id>http://www.sgiacomel.com/2018/05/06/Parental-leave/</id>
     <published>2018-05-06T11:28:02.000Z</published>
     <updated>2018-05-06T23:11:26.450Z</updated>
     
@@ -50,8 +50,8 @@
   
   <entry>
     <title>Toronto to Peterborough</title>
-    <link href="http://localhost:4000/2018/04/21/20180421/"/>
-    <id>http://localhost:4000/2018/04/21/20180421/</id>
+    <link href="http://www.sgiacomel.com/2018/04/21/20180421/"/>
+    <id>http://www.sgiacomel.com/2018/04/21/20180421/</id>
     <published>2018-04-21T04:00:00.000Z</published>
     <updated>2018-04-24T23:31:13.525Z</updated>
     
@@ -71,8 +71,8 @@
   
   <entry>
     <title>Elora to Toronto</title>
-    <link href="http://localhost:4000/2018/03/29/20180329/"/>
-    <id>http://localhost:4000/2018/03/29/20180329/</id>
+    <link href="http://www.sgiacomel.com/2018/03/29/20180329/"/>
+    <id>http://www.sgiacomel.com/2018/03/29/20180329/</id>
     <published>2018-03-29T04:00:00.000Z</published>
     <updated>2018-05-06T21:21:55.089Z</updated>
     
@@ -89,8 +89,8 @@
   
   <entry>
     <title>Toronto to Elora</title>
-    <link href="http://localhost:4000/2018/03/17/20180317/"/>
-    <id>http://localhost:4000/2018/03/17/20180317/</id>
+    <link href="http://www.sgiacomel.com/2018/03/17/20180317/"/>
+    <id>http://www.sgiacomel.com/2018/03/17/20180317/</id>
     <published>2018-03-17T04:00:00.000Z</published>
     <updated>2018-04-20T11:39:21.985Z</updated>
     
