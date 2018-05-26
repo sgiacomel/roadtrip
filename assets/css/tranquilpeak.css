@@ -1785,8 +1785,8 @@ a.fancybox {
   display: block;
   max-width: 1020px;
   margin: 0 auto;
-  padding-right: 5px;
-  padding-left: 5px; }
+  padding-right: 10px;
+  padding-left: 10px; }
 
 section.main-content-wrap {
   border: 1px solid #aaa;
