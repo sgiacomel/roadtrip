@@ -6,21 +6,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="sgiacomel">
-    <title>Tag: Roadtrip - sgiacomel</title>
+    <title>plan - sgiacomel</title>
     <meta name="author" content="Simone Giacomel">
     
     
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Website","@id":"http://www.sgiacomel.com","author":{"@type":"Person","name":"Simone Giacomel","sameAs":[]},"name":"sgiacomel","description":null,"url":"http://www.sgiacomel.com"}</script>
     <meta property="og:type" content="blog">
-<meta property="og:title" content="sgiacomel">
-<meta property="og:url" content="http://www.sgiacomel.com/tags/Roadtrip/index.html">
+<meta property="og:title" content="plan">
+<meta property="og:url" content="http://www.sgiacomel.com/plan/index.html">
 <meta property="og:site_name" content="sgiacomel">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-06-09T20:47:57.311Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sgiacomel">
+<meta name="twitter:title" content="plan">
     
     
         
@@ -153,102 +154,129 @@
                  class="
                         hasCoverMetaIn
                         ">
-                
-    <section class="main-content-wrap">
-    <section class="postShorten-group">
-    <div class="innerPostShorten-group">
-    
-    
-    <article class="postShorten postShorten--thumbnailimg-left">
-        <div class="postShorten-wrap">
-            
-            <div class="postShorten-header">
-                <h1 class="postShorten-title">
-                    
-                        <a class="link-unstyled" href="/2018/06/07/Roadtrip/">
-                            Roadtrip
-                        </a>
-                    
-                </h1>
-                <div class="postShorten-meta">
-    <time datetime="2018-06-07T12:00:00-04:00">
-	
-		    Jun 07, 2018
-    	
-    </time>
-    
+                <div id="container-fluid">
+  <div id="map" style="float:left;width:80%;"></div>
+  <div id="directions-canvas" style="float:right;width:20%; font-size: 10px; line-height: 10px;"></div>
 </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMETxi9mRjWMt726OBZAAhRyXj1xyuPOs&v=3.exp"></script>
+    <script>
+		var segments = [
+			[
+				"Elora, ON, Canada", 
+				"St John's, NL, Canada", 
+				["Ottawa", "Fundy National Park, NB, Canada", "O'Leary, PE, Canada", "Halifax, NS, Canada", "Cape Breton Highland National Park, NB, Canada", "Gros Morne National Park, NL, Canada"],
+				"Going East"
+			], 
+			[
+				"St John's, NL, Canada", 
+				"Thunder Bay, ON, Canada", 
+				["Bangor, Maine, USA", "Marathon, ON, Canada"],
+				"Going West 1"
+			]/*, 
+			[
+				"Thunder Bay, ON, Canada", 
+				"Vancouver, BC, Canada", 
+				["Waterton Lakes National Park, AB, Canada", "Banff National Park, AB, Canada", "Jasper National Park, AB, Canada"],
+				"Going West 2"
+			]*/
+		];
+		var directionsDisplay = [null, null];
+		
+		var markerOptions = {icon: "https://maps.gstatic.com/mapfiles/markers2/marker.png"};
+		var directionsDisplayOptions = {preserveViewport: true, markerOptions: markerOptions};
+		var directionsService = new google.maps.DirectionsService();
+		var directionsPanel = new google.maps.DirectionsRenderer();
+		var map;
+		var routeSegment = 1;
+		var totalDistance = 0;
+		var totalDuration = 0;
 
-            </div>
-            
-                <div class="postShorten-excerpt">
-                    
-                        <p>Planning a roadtrip around North America…<br>
-                    
-                    
-                        <a href="/2018/06/07/Roadtrip/" class="postShorten-excerpt_link link">
-                            Continue reading
-                        </a>
-                        
-                    
-                </div>
-            
-        </div>
-        
-            
-                    <a href="/2018/06/07/Roadtrip/">
-                
-                    <div class="postShorten-thumbnailimg">
-                        <img alt="" src="http://res.cloudinary.com/sgiacomel/image/upload/a_exif/v1528420373/Roadtrek/8.jpg"/>
-                    </div>
-                </a>
-            
-            
-        
-    </article>
-    
-    <div class="pagination-bar">
-    <ul class="pagination">
-        
-        
-        <li class="pagination-number">page 1 of 1</li>
-    </ul>
-</div>
+		function initialize() {
+		  var center = new google.maps.LatLng(50, -93);
+		  var mapOptions = {
+			zoom: 4,
+			center: center
+		  };
+		  map = new google.maps.Map(document.getElementById('map'), mapOptions);
+		  for (var i = 0; i < directionsDisplay.length; i++) {
+			directionsDisplay[i].setMap(map);
+		  }
+		  //directionsPanel.setPanel(document.getElementById('directions-canvas'));
+		  /*google.maps.event.addListenerOnce(map, 'tilesloaded', function () { 
+			$("#directions-canvas").append($("<span>", {id: "map-loaded", text: ""})); 
+		  });*/
+		}
 
-    
-        <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-    
-    </div>
-    </section>
-    <section class="sideBarMap">
-        <div class="innerSideBarMap"><a class="link-unstyled" href="/map/">
-            <center>Map of our current roadtrip</center>
-            <image class="iframeMap" src="/map-all.jpg">
-        </a>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- sgiacomel -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0866880872106016"
-     data-ad-slot="2780798244"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-        <!--<script id="mNCC" language="javascript">
-    medianet_width = "160";
-    medianet_height = "600";
-    medianet_crid = "266654725";
-    medianet_versionId = "3111299"; 
-  </script>
-<script src="//contextual.media.net/nmedianet.js?cid=8CUA65EQ1"></script>-->
-        </div>
-    </section>
-</section>
+		function calcRoute(index) {
+		  var start = segments[index][0];
+		  var end = segments[index][1];
+		  var routes = segments[index][2];
+		  directionsDisplay[index] = new google.maps.DirectionsRenderer(directionsDisplayOptions);
+		  
+		  var waypts = [];
+		  for (var i = 0; i < routes.length; i++) {
+		  	waypts.push({
+		  	  location:routes[i],
+		  	  stopover:true});
+		  	}
+		  
+		  var request = {
+			  origin: start,
+			  destination: end,
+			  waypoints: waypts,
+			  optimizeWaypoints: false,
+			  travelMode: google.maps.TravelMode.DRIVING
+		  };
+		  
+		  directionsService.route(request, function(response, status) {
+			  console.log(response);
+			  if (status == google.maps.DirectionsStatus.OK) {
+				directionsDisplay[index].setDirections(response);
+				directionsPanel.setDirections(response);
+				var route = response.routes[0];
+				var summaryPanel = document.getElementById('directions-canvas');
+				
+				summaryPanel.innerHTML += '<b> **' + segments[index][3] +'**</b><br>';
+				for (var i = 0; i < route.legs.length; i++) {
+					summaryPanel.innerHTML += '<b>Route Segment: ' + routeSegment +'</b><br>';
+					summaryPanel.innerHTML += 'From: ' + route.legs[i].start_address + '<br>';
+					summaryPanel.innerHTML += 'To: ' + route.legs[i].end_address + '<br>';
+					summaryPanel.innerHTML += route.legs[i].distance.text + '<br>';
+					summaryPanel.innerHTML += route.legs[i].duration.text + '<br><br>';
+					routeSegment++;
+					totalDistance += route.legs[i].distance.value;
+					totalDuration += route.legs[i].duration.value;
+				}
+				
+				if (index == directionsDisplay.length - 1) {
+					printTotals();
+				}
+			}
+		  });
+		}
+		
+		function printTotals() {
+			var seconds = totalDuration
+			var days = Math.floor(seconds / (3600*24));
+			seconds  -= days*3600*24;
+			var hrs   = Math.floor(seconds / 3600);
+			seconds  -= hrs*3600;
+			var mnts = Math.floor(seconds / 60);
+			seconds  -= mnts*60;
+			var summaryPanel = document.getElementById('directions-canvas');
+			var saveHTML = summaryPanel.innerHTML
+			summaryPanel.innerHTML = '<b>Total Distance: ' + (totalDistance / 1000) +' km</b><br>';
+			summaryPanel.innerHTML += '<b>Total Duration: ' + days+" Days, "+hrs+" Hrs, "+mnts+" Min, "+seconds+" Sec" + '</b><br><br>';
+			summaryPanel.innerHTML += saveHTML;
+		}
 
+		google.maps.event.addDomListener(window, 'load', initialize);
 
+		calcRoute(0);
+		calcRoute(1);
+	    //calcRoute(2);
+		
+    </script>
             </div>
             
             
