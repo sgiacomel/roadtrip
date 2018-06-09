@@ -192,7 +192,7 @@
 		var totalDuration = 0;
 
 		function initialize() {
-		  var center = new google.maps.LatLng(50, -93);
+		  var center = new google.maps.LatLng(50, -75);
 		  var mapOptions = {
 			zoom: 4,
 			center: center
@@ -202,9 +202,9 @@
 			directionsDisplay[i].setMap(map);
 		  }
 		  //directionsPanel.setPanel(document.getElementById('directions-canvas'));
-		  /*google.maps.event.addListenerOnce(map, 'tilesloaded', function () { 
+		  google.maps.event.addListenerOnce(map, 'tilesloaded', function () { 
 			$("#directions-canvas").append($("<span>", {id: "map-loaded", text: ""})); 
-		  });*/
+		  });
 		}
 
 		function calcRoute(index) {
