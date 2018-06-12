@@ -175,8 +175,7 @@ if (url.searchParams.get("dates")) {
 	});
 }
 if (!url.searchParams.get("dates") || dates.length === 0) {
-	const input_dates = {"raw_dates":["2018-06-08", "2018-06-09", "2018-06-10", "2018-06-11"]}
-
+	const input_dates = {"raw_dates":["2018-06-08", "2018-06-09", "2018-06-10", "2018-06-11", "2018-06-12"]}
 	raw_dates = input_dates.raw_dates;
 	raw_dates.forEach(function(date) {
 		dates.push(new Date(Date.parse(date)));
@@ -837,7 +836,7 @@ function initMap() {
 					for (let coord_index = 0; coord_index < global_jsondata.features[index].properties.coordTimes.length; coord_index++) {
 						time = new Date(global_jsondata.features[index].properties.coordTimes[coord_index]).getTime();
 						time_difference = (time - old_time) / 1000;
-						if (coord_index > 0 && (time_difference > 3600 || time_difference < -3600)) {
+						if (coord_index > 0 && (time_difference > 3600 * (dates.length > 1 ? 6 : 1) || time_difference < -3600)) {
 							features.push(line);
 							generateSegment(global_jsondata.features[index], global_jsondata.features[index].geometry.coordinates[coord_index - 1], line, "end");
 							line = getNewLine();
@@ -856,7 +855,7 @@ function initMap() {
 				else {
 					time = new Date(global_jsondata.features[index].properties.time).getTime();
 					time_difference = (time - old_time) / 1000;
-					if (time_difference > 3600 || time_difference < -3600) {
+					if (time_difference > 3600 * (dates.length > 1 ? 6 : 1) || time_difference < -3600) {
 						features.push(line);
 						generateSegment(global_jsondata.features[index - 1], global_jsondata.features[index - 1].geometry.coordinates, line, "end");
 						line = getNewLine();
