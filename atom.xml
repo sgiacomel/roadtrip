@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.sgiacomel.com/"/>
-  <updated>2018-06-25T09:31:03.866Z</updated>
+  <updated>2018-06-26T00:16:14.108Z</updated>
   <id>http://www.sgiacomel.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Division No. 9, Subd. A to Sally&#39;s Cove</title>
+    <title>Sally&#39;s Cove to Cow Head</title>
+    <link href="http://www.sgiacomel.com/2018/06/25/20180625/"/>
+    <id>http://www.sgiacomel.com/2018/06/25/20180625/</id>
+    <published>2018-06-25T02:30:00.000Z</published>
+    <updated>2018-06-26T00:16:14.108Z</updated>
+    
+    <content type="html"><![CDATA[<!-- excerpt -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- excerpt --&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Gros Morne Lomond to Sally&#39;s Cove</title>
     <link href="http://www.sgiacomel.com/2018/06/24/20180624/"/>
     <id>http://www.sgiacomel.com/2018/06/24/20180624/</id>
     <published>2018-06-24T02:30:00.000Z</published>
-    <updated>2018-06-25T09:31:03.866Z</updated>
+    <updated>2018-06-26T00:15:07.128Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt -->]]></content>
     
@@ -403,26 +424,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Roadtrip</title>
-    <link href="http://www.sgiacomel.com/2018/06/07/Roadtrip/"/>
-    <id>http://www.sgiacomel.com/2018/06/07/Roadtrip/</id>
-    <published>2018-06-07T14:30:00.000Z</published>
-    <updated>2018-06-08T01:32:32.336Z</updated>
-    
-    <content type="html"><![CDATA[<!-- excerpt -->Planning a roadtrip around North America is something that I had in mind since I moved to Canada in 2010.<br>Canada has good policies around <a href="/2018/05/20/Parental-leave/" title="Parental leave">Parental leave</a>, which I am going to benefit from.<br>My wife and I decided we were going to spend this leave roadtripping around North America (mainly Canada probably).<br>The reason why we opted for a roadtrip is also because we have a dog, Darwin, who is often left home when we go travel. This time we were keen to have him onboard too.<br>To be completely honest, we didn’t prepare much before our daughter was born, which was at the end of January. Both Niki and I are the type of people that can’t really plan too much in advance. So all the preparations for this trip happened after Cassandra was born.<br>In February I started working on this website, which is mainly a mean of updating people where we are and what we are doing. Since I love maps, I decided I was going to keep track of our position using a normal gps phone. I wrote a quick javascript script to map the captured coordinates on google maps. You can see some tests from if you scroll back in time on the home page.<br>Looking for a vehicle proved to be probably the most stressful and difficult part of the preparation. We focused our search on <a href="/2018/06/15/Roadtrek/" title="Roadtrek">Roadtrek</a>, which I quickly realized are sold very fast. We bought ours from this guy: <a href="https://www.bassoautosales.com/" target="_blank" rel="noopener">Basso Auto Sales</a><br>At the end of May we moved our stuff to my father in law’s (thanks Al) and we are now ready to take off.<br>The plan is to head east to Newfoundland through Quebec, New Brunswick, PEI and Nova Scotia. On the way back, we might go through the States. Then we head west.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Planning a roadtrip around North America…&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Roadtrip" scheme="http://www.sgiacomel.com/tags/Roadtrip/"/>
     
   </entry>
   
